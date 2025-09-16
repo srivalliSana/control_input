@@ -1,0 +1,65 @@
+/* Center container */
+.registration-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background: #f9f9f9;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.registration-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form group */
+.registration-container div {
+  margin-bottom: 15px;
+}
+
+/* Labels */
+.registration-container label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+/* Input fields */
+.registration-container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: border 0.3s;
+}
+
+/* Input focus effect */
+.registration-container input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Submit button */
+.registration-container button {
+  width: 100%;
+  padding: 12px;
+  background: #007bff;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+/* Button hover */
+.registration-container button:hover {
+  background: #0056b3;
+}
